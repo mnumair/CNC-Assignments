@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Numair-Forms-A7</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/numairform.html" method="POST">
+        <h1>Forms</h1>
+            <fieldset>
+                <legend>Your Details</legend>
+                <p>Name: <input type="text" size="25" maxlength="25" name="name"></p>
+                <p>email: <input type="email" size="25" maxlength="25" name="email"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Your Review</legend>
+                <p>How did you hear about us?
+                    <select>
+                        <option>Google</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                    </select>
+                </p>
+            <p> Would you visit us again?<br/>
+                <input type="radio" name="choice">Yes
+                <input type="radio" name="choice">No
+                <input type="radio" name="choice">Maybe
+            </p>
+            <p>Comments:</p>
+            <textarea rows="7" cols="50" name="comments">
+            </textarea>
+            <br/>
+            <p><input type="checkbox" name="signup">Sign me up for emails?</p>
+            
+            <input type="submit" name="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
