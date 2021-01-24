@@ -1,0 +1,28 @@
+body {
+    color:rgb(0, 61, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px teal ;
+}
+
+.c  {
+    color: rgb(6, 6, 128);
+}
+
+i {
+    font-weight: bold;
+}
+
+.first-letter{
+    font-size: 30px;
+}
+.container{
+    text-align: center;
+}
